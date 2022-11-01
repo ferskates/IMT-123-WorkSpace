@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/AND_GATE2.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/AND_GATE3.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/LAB4.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/NAND_GATE2.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/NAND_GATE3.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/NAND_GATE4.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sources_1/new/NOT_GATE1.vhd" \
+"../../../../GRUPO1_LAB4_VIV.srcs/sim_1/new/LAB4_TB.vhd" \
+
+# Do not sort compile order
+nosort

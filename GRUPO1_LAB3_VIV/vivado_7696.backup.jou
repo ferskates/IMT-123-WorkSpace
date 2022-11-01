@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Aug 22 23:46:42 2022
+# Process ID: 7696
+# Current directory: C:/Users/HP G4/Downloads/GRUPO1_LAB3_VIV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4904 C:\Users\HP G4\Downloads\GRUPO1_LAB3_VIV\GRUPO1_LAB3_VIV.xpr
+# Log file: C:/Users/HP G4/Downloads/GRUPO1_LAB3_VIV/vivado.log
+# Journal file: C:/Users/HP G4/Downloads/GRUPO1_LAB3_VIV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP G4/Downloads/GRUPO1_LAB3_VIV/GRUPO1_LAB3_VIV.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+save_project_as lab3 {C:/Users/HP G4/Desktop/labosvivado/lab3} -force

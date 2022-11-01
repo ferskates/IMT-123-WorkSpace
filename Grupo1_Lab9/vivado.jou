@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov  1 09:25:58 2022
+# Process ID: 12644
+# Current directory: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3476 C:\Users\HP G4\Desktop\LABORATORIOS DIGITAL\Grupo1_Lab9\Grupo1_Lab9.xpr
+# Log file: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/vivado.log
+# Journal file: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property package_pin "" [get_ports [list  clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Qs[3]} {Qs[2]} {Qs[1]} {Qs[0]}]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+place_ports {Qs[3]} V22
+place_ports {Qs[2]} W22
+place_ports {Qs[1]} U19
+place_ports {Qs[0]} U14
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Qs[3]} {Qs[2]} {Qs[1]} {Qs[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+save_constraints
+launch_simulation
+source TB_contprim.tcl
+close_sim
+launch_simulation
+source TB_contprim.tcl
+close_sim

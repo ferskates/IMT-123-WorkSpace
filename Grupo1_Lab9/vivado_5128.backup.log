@@ -1,0 +1,379 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov  1 09:00:31 2022
+# Process ID: 5128
+# Current directory: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12648 C:\Users\HP G4\Desktop\LABORATORIOS DIGITAL\Grupo1_Lab9\Grupo1_Lab9.xpr
+# Log file: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/vivado.log
+# Journal file: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/HP/OneDrive/Documentos/MARCELO/UCB/Circuitos Digitales/Grupo1_Lab9' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:15 . Memory (MB): peak = 718.117 ; gain = 124.582
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_contprim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_contprim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/ContPrim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ContPrim'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/cont4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont4bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/primo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'primo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sim_1/new/TB_contprim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_contprim'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 06b398842b0c49b8ae420d3cdfd4cf6e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_contprim_behav xil_defaultlib.TB_contprim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.cont4bits [cont4bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.primo [primo_default]
+Compiling architecture behavioral of entity xil_defaultlib.ContPrim [contprim_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_contprim
+Built simulation snapshot TB_contprim_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 769.465 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_contprim_behav -key {Behavioral:sim_1:Functional:TB_contprim} -tclbatch {TB_contprim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source TB_contprim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 783.363 ; gain = 13.898
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_contprim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 783.363 ; gain = 13.898
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1
+can't create directory "C:/Users/HP": permission denied
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1
+can't create directory "C:/Users/HP": permission denied
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new
+can't create directory "C:/Users/HP": permission denied
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new
+can't create directory "C:/Users/HP": permission denied
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new
+can't create directory "C:/Users/HP": permission denied
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new
+can't create directory "C:/Users/HP": permission denied
+file mkdir C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1
+can't create directory "C:/Users/HP": permission denied
+file mkdir {C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new}
+close [ open {C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc}}
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: ContPrim
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 885.266 ; gain = 81.168
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ContPrim' [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/ContPrim.vhd:40]
+INFO: [Synth 8-3491] module 'cont4bits' declared at 'C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/cont4bits.vhd:36' bound to instance 'utt0' of component 'cont4bits' [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/ContPrim.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'cont4bits' [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/cont4bits.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'cont4bits' (1#1) [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/cont4bits.vhd:41]
+INFO: [Synth 8-3491] module 'primo' declared at 'C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/primo.vhd:34' bound to instance 'utt1' of component 'primo' [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/ContPrim.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'primo' [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/primo.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'primo' (2#1) [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/primo.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ContPrim' (3#1) [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/sources_1/new/ContPrim.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 937.066 ; gain = 132.969
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 937.066 ; gain = 132.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 937.066 ; gain = 132.969
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Qs(0)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(1)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(2)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A(3)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(0)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(1)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(2)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(3)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MENOR'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MAYOR'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IGUAL'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A(0)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A(1)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A(2)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A(3)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(0)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(1)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(2)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B(3)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MENOR'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MAYOR'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IGUAL'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[0]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[1]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[2]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[3]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[4]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[5]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[6]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[7]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[8]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[9]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[10]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[11]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[0]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[1]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[4]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[5]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[6]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[7]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[8]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[9]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[10]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[11]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[0]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[1]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[2]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[3]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[0]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[1]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1253.562 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:31 . Memory (MB): peak = 1319.328 ; gain = 515.230
+12 Infos, 54 Warnings, 54 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:31 . Memory (MB): peak = 1319.328 ; gain = 515.230
+launch_runs synth_1 -jobs 4
+[Tue Nov  1 09:18:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Qs(0)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(1)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(2)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(0)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(1)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Qs(2)'. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1347.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1347.152 ; gain = 0.000
+set_property package_pin "" [get_ports [list  {Qs[3]}]]
+place_ports {Qs[3]} V22
+place_ports {Qs[2]} W22
+place_ports {Qs[1]} U19
+place_ports {Qs[0]} U14
+set_property target_constrs_file {C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.srcs/constrs_1/new/constrainLab9.xdc} [current_fileset -constrset]
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1947.051 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1947.051 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.209 . Memory (MB): peak = 1947.836 ; gain = 0.785
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1950.832 ; gain = 0.000
+[Tue Nov  1 09:23:31 2022] Launched impl_1...
+Run output will be captured here: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.runs/impl_1/runme.log
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+save_constraints
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1950.871 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  1 09:25:48 2022...

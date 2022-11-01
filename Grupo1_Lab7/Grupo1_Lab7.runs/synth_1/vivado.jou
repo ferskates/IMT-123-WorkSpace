@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Oct 11 01:48:52 2022
+# Process ID: 9224
+# Current directory: C:/Users/HP/OneDrive/Documentos/MARCELO/UCB/Circuitos Digitales/Grupo1_Lab7/Grupo1_Lab7.runs/synth_1
+# Command line: vivado.exe -log Flip_Flop_D.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Flip_Flop_D.tcl
+# Log file: C:/Users/HP/OneDrive/Documentos/MARCELO/UCB/Circuitos Digitales/Grupo1_Lab7/Grupo1_Lab7.runs/synth_1/Flip_Flop_D.vds
+# Journal file: C:/Users/HP/OneDrive/Documentos/MARCELO/UCB/Circuitos Digitales/Grupo1_Lab7/Grupo1_Lab7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Flip_Flop_D.tcl -notrace

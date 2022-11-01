@@ -1,0 +1,165 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 7512
+License: Customer
+
+Current time: 	Thu Oct 13 12:01:18 CEST 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 30 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	HP G4
+User home directory: C:/Users/HP G4
+User working directory: C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A
+User country: 	419
+User language: 	es
+User locale: 	es_419
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/HP G4/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/HP G4/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/HP G4/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/vivado.log
+Vivado journal file location: 	C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/vivado.jou
+Engine tmp dir: 	C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/.Xil/Vivado-7512-DESKTOP-8JBS5CB
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 577 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 107 MB (+109255kb) [00:00:13]
+// [Engine Memory]: 562 MB (+438053kb) [00:00:13]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\HP G4\Desktop\lab6\LAB6A\grupo_1Lab6A\grupo_1Lab6A.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 41 MB. Current time: 10/13/22, 12:01:20 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 669 MB (+82580kb) [00:00:24]
+// [Engine Memory]: 711 MB (+8806kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  5175 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:14 . Memory (MB): peak = 767.594 ; gain = 166.703 
+// Project name: grupo_1Lab6A; location: C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (CD4063.vhd) elapsed time: 0.3s
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CD4063(Behavioral) (CD4063.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CD4063(Behavioral) (CD4063.vhd), E1 : ENTRADAS(Behavioral) (ENTRADAS.vhd)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [Engine Memory]: 764 MB (+18181kb) [00:00:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 764 MB. GUI used memory: 49 MB. Current time: 10/13/22, 12:01:50 PM CEST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TOP_LAB_TB(Behavioral) (CD5063_TB.vhd)]", 12, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TOP_LAB_TB(Behavioral) (CD5063_TB.vhd)]", 12, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'CD4063' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj CD4063_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 791.773 ; gain = 0.750 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 8 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'CD4063' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj CD4063_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'C:/Users/HP G4/Desktop/lab6/LAB6A/grupo_1Lab6A/grupo_1Lab6A.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 6 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)

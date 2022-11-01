@@ -1,0 +1,4 @@
+Running: xsim.dir/CD4063_behav/xsimk.exe -simmode gui -wdb CD4063_behav.wdb -simrunnum 0 -socket 54990
+Design successfully loaded
+Design Loading Memory Usage: 5828 KB (Peak: 5828 KB)
+Design Loading CPU Usage: 15 ms

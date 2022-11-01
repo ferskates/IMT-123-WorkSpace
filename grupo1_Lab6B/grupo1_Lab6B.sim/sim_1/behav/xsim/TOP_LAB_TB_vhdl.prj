@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/AND_GATE2.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/AND_GATE3.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/CD4063.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/ENTRADAS.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/MODULO.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/NAND_GATE2.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/NAND_GATE5.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/NOT_GATE1.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/OR_GATE2.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/OR_GATE3.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/OR_GATE4.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/OR_GATE5.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/TOP_LAB.vhd" \
+"../../../../grupo1_Lab6B.srcs/sources_1/new/YES_GATE.vhd" \
+"../../../../grupo1_Lab6B.srcs/sim_1/new/TOP_LAB_TB.vhd" \
+
+# Do not sort compile order
+nosort

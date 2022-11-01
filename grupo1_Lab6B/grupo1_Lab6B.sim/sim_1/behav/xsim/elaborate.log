@@ -1,0 +1,28 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 9f9a6e7920b34a9db33f01d0ae3fa910 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TOP_LAB_TB_behav xil_defaultlib.TOP_LAB_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.NOT_GATE1 [not_gate1_default]
+Compiling architecture behavioral of entity xil_defaultlib.YES_GATE1 [yes_gate1_default]
+Compiling architecture behavioral of entity xil_defaultlib.ENTRADAS [entradas_default]
+Compiling architecture behavioral of entity xil_defaultlib.NAND_GATE2 [nand_gate2_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_GATE2 [and_gate2_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_GATE2 [or_gate2_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_GATE3 [or_gate3_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_GATE4 [or_gate4_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_GATE5 [or_gate5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NAND_GATE5 [nand_gate5_default]
+Compiling architecture behavioral of entity xil_defaultlib.MODULO [modulo_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_GATE3 [and_gate3_default]
+Compiling architecture behavioral of entity xil_defaultlib.CD4063 [cd4063_default]
+Compiling architecture behavioral of entity xil_defaultlib.TOP_LAB [top_lab_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_lab_tb
+Built simulation snapshot TOP_LAB_TB_behav

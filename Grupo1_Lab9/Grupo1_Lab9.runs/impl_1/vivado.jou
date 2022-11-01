@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov  1 09:41:57 2022
+# Process ID: 13532
+# Current directory: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.runs/impl_1
+# Command line: vivado.exe -log ContPrim.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ContPrim.tcl -notrace
+# Log file: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.runs/impl_1/ContPrim.vdi
+# Journal file: C:/Users/HP G4/Desktop/LABORATORIOS DIGITAL/Grupo1_Lab9/Grupo1_Lab9.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ContPrim.tcl -notrace
